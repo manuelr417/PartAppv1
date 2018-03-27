@@ -20,7 +20,7 @@ class PartDAO:
         # result.append(P2)
         # result.append(P3)
         return self.data
-
+    #ByID
     def getPartById(self, id):
         for r in self.data:
             if id == r[0]:
